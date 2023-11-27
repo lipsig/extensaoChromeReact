@@ -1,0 +1,80 @@
+.lojaBlock{
+    border-top: 1px solid #e2e1e1;
+    margin: 10px 0;
+    min-height: 150px;
+    text-align: left;
+    padding: 0px 20px;
+    display: block;
+    position: relative;
+    
+}
+
+.lojaModal{
+    background: #dadada;
+    left: 48px;
+    padding: 20px;
+    position: absolute;
+    top: 55px;
+    width: 74%;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.lojaBlock h2{
+    font-weight: 500;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.admin img,.jobber img{
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.jobber{
+    text-align: left;
+}
+.admin{
+    text-align: center;
+}
+.admin,.jobber{
+    width: 62px;
+    margin: 5px 0;
+}
+.storeTask{
+    display: flex;
+    margin-right: 30px;
+}
+
+.deletarTask{
+    right: 21px;
+    background-color: red;
+}
+
+.editarTask{
+    right: 104px;
+    background: #E91E63;
+}
+
+.closeModal.edit{
+    left: 208px!important;
+    top: 20px!important;
+}
+
+.deletarTask,.editarTask{  
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 11px;
+    letter-spacing: 1px;
+    position: absolute;
+    margin: 6px 0;
+    padding: 10px;
+    top: 8px;
+    text-transform: uppercase;
+}
+
+
